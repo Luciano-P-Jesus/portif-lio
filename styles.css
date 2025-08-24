@@ -1,0 +1,189 @@
+.imagem-perfil
+{
+    width: 210px;
+    height: 210px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.div-musica
+{
+    width: 3000px;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.musica
+{
+    color: #66ffffbd;
+    text-align: left;    
+    white-space: nowrap;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.div-img-musica
+{
+ width: 400px;
+}
+
+.img-musica
+{
+    width: 150px;
+    height: 150px;
+    margin-left: 70px;
+    margin-top: 90px;
+    border-style: solid;
+    border-radius: 500px;
+    border-color: black;
+    border-width: 5px;
+}
+
+.girando
+{
+    animation: girar 5s linear infinite;
+}
+
+.botao-play
+{
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+@keyframes girar {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+.texto-img-musica
+{
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+    color: #66ffffbd;
+    font-size: 20px;
+    margin-left: 80px;
+}
+    
+    .foto-perfil
+    {
+        width: 100%;
+        height: 100%;
+        border-radius: 150px;
+        border-color: blue;
+        border-width: 2px;
+        border-style: solid;
+    }
+
+   .div-pai-titulos
+   {
+        margin-left: 30px;
+        margin-top: 20px;
+        display: flex;
+   } 
+
+   .div-sobre-mim
+   {
+    width: 200px;
+    border-radius: 130px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(69, 69, 236);
+    cursor: pointer;
+   }
+   .sobre-mim{
+    margin-left: 15px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 500;
+    color: #66ffffbd;
+   }
+
+   .div-objetivos
+   {
+    width: 200px;
+    border-radius: 130px;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 20px;
+    border-color: rgb(69, 69, 236);
+    cursor: pointer;
+   }
+   .objetivos{
+    margin-left: 20px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 500;
+    color: #66ffffbd;
+   }
+
+   .div-visao-de-vida
+   {
+    width: 250px;
+    border-radius: 130px;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 20px;
+    border-color: rgb(69, 69, 236);
+    cursor: pointer;
+   }
+   .visao-de-vida{
+    margin-left: 20px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 500;
+    color: #66ffffbd;
+   }
+
+   .div-eu-atualmente
+   {
+    width: 270px;
+    border-radius: 130px;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 20px;
+    border-color: rgb(69, 69, 236);
+    cursor: pointer;
+   }
+   .eu-atualmente{
+    margin-left: 20px;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 500;
+    color: #66ffffbd;
+   }
+
+   .div-clique-aqui
+   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 170px;
+    width: 360px;
+    height: 50px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    padding-right: 5px;
+   }
+
+   .clique-aqui
+   {
+        width: 100%;
+        height: 100%;
+        margin-left: 7px;
+        color: #66ffffbd;
+        font-weight: 500;
+   }
+
+   body
+   {
+background-image: url("imagens/céu fundo.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+   }
