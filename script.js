@@ -39,8 +39,9 @@ function toggleMusic() {
 
 const h1 = document.getElementById("trocar");
 
-function trocar()
+function sobre()
 {
  h1.textContent = h1.dataset.sobre;
 }
   
+
