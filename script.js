@@ -36,3 +36,11 @@ function toggleMusic() {
     imgMusica.classList.remove("girando");
   }
 }
+
+const h1 = document.getElementById("trocar");
+
+function trocar()
+{
+ h1.textContent = h1.dataset.sobre;
+}
+  
